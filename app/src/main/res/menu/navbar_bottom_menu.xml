@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Utama"
+        android:icon="@drawable/selector_utama" />
+    <item android:title="Pesanan"
+        android:icon="@drawable/selector_pesanan" />
+    <item android:title="Notifikasi"
+        android:icon="@drawable/selector_notifikasi" />
+    <item android:title="Pengguna"
+        android:icon="@drawable/selector_pengguna" />
+</menu>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/app_bar_dashboard">
+
+    <com.to.aboomy.pager2banner.Banner
+        android:id="@+id/bannerSlider"
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="140dp">
+
+        <com.to.aboomy.pager2banner.IndicatorView
+            android:id="@+id/indicatorView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="270dp"
+            android:layout_marginRight="170dp"
+            android:layout_marginBottom="16dp"
+            tools:ignore="MissingConstraints" />
+    </com.to.aboomy.pager2banner.Banner>
+</RelativeLayout>
